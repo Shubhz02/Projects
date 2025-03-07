@@ -1,0 +1,19 @@
+Step 2: INterfacing Rain Sensor
+
+
+Hardware Required:
+>Rain Sensor Module
+>Arduino (e.g., Arduino Uno)
+>Jumper wires
+
+
+Connections:
+>VCC to 5V
+>GND to GND
+>Analog Output (A0) to an Analog pin (A0) on Arduino
+
+
+Working Principle:
+The Rain Sensor consists of a sensor board and a detection module. 
+It detects the presence of water droplets by measuring the resistance change when water bridges the gap between the sensors conductive traces.
+
