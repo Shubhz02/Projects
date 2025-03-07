@@ -5,20 +5,20 @@
 
 
 **inputs {sensors}-{A sensor is a device that detects and responds to some type of input from the physical environment}**
->Temperature sensor
->Light Sensor
->I r sensor
->Ultrasonic sensor
->Humidity Sensor
->Proximity sensors
->Acceleration sensor
->DHT11 sensor
->Gas sensor
->Gyroscope sensor
->Microphone sensor
->IR Sensor  
->Position sensor  
->Sound Sensor
+>Temperature sensor,
+>Light Sensor,
+>I r sensor,
+>Ultrasonic sensor,
+>Humidity Sensor,
+>Proximity sensors,
+>Acceleration sensor,
+>DHT11 sensor,
+>Gas sensor,
+>Gyroscope sensor,
+>Microphone sensor,
+>IR Sensor,
+>Position sensor,
+>Sound Sensor,
 >Tilt sensor
 
 outputs   
