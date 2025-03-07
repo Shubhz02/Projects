@@ -1,0 +1,26 @@
+Step 4: 
+Interfacing MQ-2 Gas Sensor (Air Quality Monitoring)
+
+
+{
+The MQ-2 sensor detects various gases like LPG, smoke, alcohol, propane, methane, and carbon monoxide. 
+It helps monitor air pollution and gas leaks in the environment.
+}
+
+
+..Hardware Required:
+> MQ-2 Gas Sensor Module
+> Arduino uno
+> Jumper Wires
+
+
+
+>>>>Connections:
+The MQ-2 sensor has both analog (A0) and digital (D0) outputs.
+
+>MQ-2 Pin	Arduino Pin
+>VCC	5V
+>GND	GND
+>A0	A1 (or any analog pin)
+
+
