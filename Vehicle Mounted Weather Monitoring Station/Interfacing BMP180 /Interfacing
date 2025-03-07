@@ -1,0 +1,32 @@
+Step 3: 
+
+interfacing BMP180 (Atmospheric Pressure and Altitude Sensor)
+
+Hardware Required:
+> BMP180 Sensor Module
+> Arduino (e.g., Uno)
+> Jumper Wires
+>>>>>> Used I2C communication protocol 
+{
+I2C (Inter-Integrated Circuit) is a serial bus interface connection protocol. It is also called a TWI (two wire interface)
+}
+
+
+
+Connections:
+The BMP180 uses the I2C communication protocol, so it connects to the Arduino’s SDA (A4) and SCL (A5) pins:
+
+BMP180 Pin	Arduino Uno Pin
+VCC	3.3V (or 5V)
+GND	GND
+SDA	A4
+SCL	A5
+
+
+>>>Install the BMP180 Library
+
+install the Adafruit BMP180 Library:
+
+Open Arduino IDE
+Go to Sketch → Include Library → Manage Libraries
+Search for Adafruit BMP085 Unified and install it (BMP180 uses this library).
