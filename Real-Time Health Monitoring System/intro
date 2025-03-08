@@ -1,1 +1,36 @@
-Real-Time Health Monitoring System
+Project Name: Real-Time Health Monitoring System
+
+Project Overview:
+This IoT-based Real-Time Health Monitoring System uses an ESP8266 microcontroller to collect and transmit health data, such as temperature,
+humidity, and ECG signals, to ThingSpeak for real-time monitoring and analysis. The system also displays health parameters on an LCD 16x2 screen for local monitoring.
+
+
+Key Features:
+✅ Wireless IoT Monitoring – Sends real-time health data to the cloud (ThingSpeak).
+✅ Local Display – LCD 16x2 shows live temperature, humidity, and ECG readings.
+✅ Multi-Sensor Integration – Uses DHT11 (temperature & humidity) and an ECG sensor.
+✅ SPI & UART Communication – Ensures efficient sensor data transfer and debugging.
+
+
+
+Hardware Components:
+•	ESP8266 – Wi-Fi microcontroller for IoT applications.
+•	LCD 16x2 – Displays real-time health data.
+•	DHT11 Sensor – Measures temperature and humidity.
+•	ECG Sensor – Monitors heart rate and ECG signals.
+•	IoT (ThingSpeak) – Stores and visualizes health data online.
+•	SPI & UART Communication – Used for sensor interfacing and data transmission.
+
+
+Working Principle:
+1️Sensors (DHT11 & ECG) collect real-time health parameters.
+2️ ESP8266 processes the sensor data.
+3️ The data is displayed on the LCD 16x2 for instant monitoring.
+4️ The system sends the data to ThingSpeak via Wi-Fi for remote access.
+
+
+Conclusion:
+This project is a low-cost, efficient IoT solution for real-time health monitoring. It can be used in hospitals, home healthcare, 
+and remote patient monitoring systems to track vital health parameters and alert doctors or caregivers in case of abnormalities.
+ 
+
