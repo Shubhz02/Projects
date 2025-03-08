@@ -1,0 +1,19 @@
+Step 7: 
+
+Sending Sensor Data to Blynk App
+Now, we will:
+✅ Read DHT11 (Temperature & Humidity), Rain Sensor, BMP180 (Pressure), and MQ-2 (Air Quality) values.
+✅ Send these values to the Blynk App using ESP8266 Wi-Fi.
+✅ Display the data in Blynk Widgets.
+
+>>>Add the following widgets:
+                               Value Display (For Temperature, Humidity, Pressure, Gas, and Rain Level)
+                               LED Widget (For Rain Detection, optional)
+
+
+>>>>>>>Assign Virtual Pins for each sensor:
+V0 → Temperature
+V1 → Humidity
+V2 → Rain Level
+V3 → Atmospheric Pressure
+V4 → Air Quality (Gas Sensor)
